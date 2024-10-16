@@ -10,7 +10,13 @@
 <body>
     
         <h1  id="btn"  > Trang CHủ</h1>
-        <button   onclick="Thay()"  > BẤM ZO </button>
+
+        <div>
+
+            <button   onclick="Thay()"  > BẤM ZO </button>
+            <button   onclick="re()"  > RESET </button>
+            
+        </div>
 
 </body>
 
@@ -22,6 +28,10 @@
     let a ="XIn Chaos";
             function Thay() {
                 document.getElementById("btn").innerHTML=a;
+            }
+
+            function re() {
+                document.getElementById("btn").innerHTML= "Trang CHủ";
             }
 </script>
 </html>
